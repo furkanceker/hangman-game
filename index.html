@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Asmaca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <span class="wrong-guesses">Yanlış Tahmin : <span class="mistake" style="font-weight: 600">0</span> / <span class="max-wrong" style="font-weight: 600"></span></span>
+        <button class="reset-btn" onclick="reset()">Sıfırla</button>
+
+        <div class="hangman-body">
+            <span class="base"></span>
+            <span class="pillar"></span>
+            <span></span>
+            <span></span>
+            <span class="face"></span>
+            <span class="stomach"></span>
+            <span class="hand-one"></span>
+            <span class="hand-two"></span>
+            <span id="leg-one"></span>
+            <span id="leg-two"></span>
+        </div>
+
+        <div class="guess-word">
+            <p>Meyve ismini tahmin et!</p>
+            <span class="wordSpotlight"></span>
+        </div>
+
+        <div class="keyboard-box">
+
+        </div>
+    </div>
+
+    <div class="result-box">
+        <h1 class="message">Kazandın!</h1>
+        <span>Kelimemiz <span class="result-answer">Javascript</span></span>
+        <button class="new game-btn" onclick="newGame()">Yeni Oyun</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
