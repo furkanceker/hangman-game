@@ -220,7 +220,7 @@ font-weight:600;
 
 .reset-btn{
 all:unset;
-background:orange;
+background:rgb(0, 88, 202);
 color:black;
 border:2px solid black;
 text-align:center;
